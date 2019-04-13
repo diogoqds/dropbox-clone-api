@@ -36,7 +36,5 @@ app.use('/files', express.static(path.resolve(__dirname,'..','tmp')));
 
 app.use(require('./routes'));
 
-server.listen(port, () => {
-  console.log(`server running on http://localhost:${port}`);
-});
+server.listen(port);
 
