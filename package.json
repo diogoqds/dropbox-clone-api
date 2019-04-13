@@ -4,7 +4,13 @@
   "main": "index.js",
   "author": "Diogo Queiroz <diogoqueirozsantos97@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
   "dependencies": {
     "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
   }
 }
