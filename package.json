@@ -5,7 +5,8 @@
   "author": "Diogo Queiroz <diogoqueirozsantos97@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon src/server.js"
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
   },
   "dependencies": {
     "express": "^4.16.4"
