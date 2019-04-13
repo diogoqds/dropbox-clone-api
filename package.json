@@ -1,0 +1,7 @@
+{
+  "name": "dropbox-clone-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Diogo Queiroz <diogoqueirozsantos97@gmail.com>",
+  "license": "MIT"
+}
