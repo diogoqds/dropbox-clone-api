@@ -16,7 +16,7 @@ io.on('connection', socket => {
 });
 
 mongoose.connect(
-  'mongodb://localhost:27017/dropbox-clone',
+  'mongodb+srv://diogoqds:mongo@cluster0-cbkdl.mongodb.net/dropbox-clone?retryWrites=true',
   { useNewUrlParser: true },
   (err,db) => {  if(err) throw err; }
 );
