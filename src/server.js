@@ -2,6 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const path = require('path');
 const http = require('http');
+const cors = require('cors');
 
 const app = express();
 const server = http.Server(app);
@@ -20,6 +21,8 @@ mongoose.connect(
   (err,db) => {  if(err) throw err; }
 );
 const port = process.env.PORT || 3001;
+
+app.use(cors());
 
 app.use((req, res, next) => {
   req.io = io;
